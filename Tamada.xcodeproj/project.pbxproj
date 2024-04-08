@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1B6DFD2BA9AE5300D149FA /* UIView_Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B6DFC2BA9AE5300D149FA /* UIView_Pin.swift */; };
+		1B1B6E372BA9B41900D149FA /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B6E2A2BA9B41900D149FA /* json.swift */; };
+		1B1B6E3E2BAA53D900D149FA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B6E3D2BAA53D900D149FA /* RegisterViewController.swift */; };
+		1B1B6E402BAA5A1000D149FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B6E3F2BAA5A1000D149FA /* LoginViewController.swift */; };
+		1B1B6E442BAA6F7D00D149FA /* EmailAndPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B6E432BAA6F7D00D149FA /* EmailAndPasswordTextField.swift */; };
+		1B1B6E472BAADE5600D149FA /* LoginAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B6E462BAADE5600D149FA /* LoginAPIService.swift */; };
+		1B1B6E4B2BAAFADE00D149FA /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B6E4A2BAAFADE00D149FA /* MainScreenController.swift */; };
+		1B1B6E502BAC72B200D149FA /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B6E4F2BAC72B200D149FA /* PartyCell.swift */; };
+		1BEA0CF62BC1D2DB004B174D /* AddPartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0CF52BC1D2DB004B174D /* AddPartyCell.swift */; };
+		1BEA0CF92BC4250B004B174D /* PartyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0CF82BC4250B004B174D /* PartyModel.swift */; };
+		1BEA0CFB2BC427F4004B174D /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0CFA2BC427F4004B174D /* Party.swift */; };
+		1BEA0CFD2BC4320F004B174D /* EditPartyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0CFC2BC4320F004B174D /* EditPartyController.swift */; };
+		1BEA0CFF2BC44633004B174D /* PartyOrgController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0CFE2BC44633004B174D /* PartyOrgController.swift */; };
+		1BEA0D022BC45A61004B174D /* ApiServiceParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0D012BC45A61004B174D /* ApiServiceParty.swift */; };
+		1BEA0D062BC4660B004B174D /* CheckEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0D052BC4660B004B174D /* CheckEmailController.swift */; };
+		1BEA0D092BC615C9004B174D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0D082BC615C9004B174D /* User.swift */; };
+		1BEA0D0B2BC615E9004B174D /* TokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0D0A2BC615E9004B174D /* TokenInfo.swift */; };
+		1BEA0D0D2BC6160C004B174D /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0D0C2BC6160C004B174D /* ErrorResponse.swift */; };
+		1BEA0D0F2BC6163C004B174D /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0D0E2BC6163C004B174D /* Developer.swift */; };
+		1BEA0D112BC61676004B174D /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0D102BC61676004B174D /* UserDefaults.swift */; };
+		1BEA0D132BC616AB004B174D /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0D122BC616AB004B174D /* Endpoints.swift */; };
+		1BEA0D152BC6172B004B174D /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA0D142BC6172B004B174D /* Requester.swift */; };
 		1BF07C8A2BA7408D00A313CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF07C892BA7408D00A313CE /* AppDelegate.swift */; };
 		1BF07C8C2BA7408D00A313CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF07C8B2BA7408D00A313CE /* SceneDelegate.swift */; };
 		1BF07C8E2BA7408D00A313CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF07C8D2BA7408D00A313CE /* ViewController.swift */; };
-		1BF07C912BA7408D00A313CE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1BF07C902BA7408D00A313CE /* Base */; };
 		1BF07C932BA7408F00A313CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF07C922BA7408F00A313CE /* Assets.xcassets */; };
-		1BF07C962BA7408F00A313CE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1BF07C952BA7408F00A313CE /* Base */; };
 		1BF07CA12BA7408F00A313CE /* TamadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF07CA02BA7408F00A313CE /* TamadaTests.swift */; };
 		1BF07CAB2BA7408F00A313CE /* TamadaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF07CAA2BA7408F00A313CE /* TamadaUITests.swift */; };
 		1BF07CAD2BA7408F00A313CE /* TamadaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF07CAC2BA7408F00A313CE /* TamadaUITestsLaunchTests.swift */; };
@@ -36,13 +56,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B1B6DFC2BA9AE5300D149FA /* UIView_Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Pin.swift; sourceTree = "<group>"; };
+		1B1B6E2A2BA9B41900D149FA /* json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
+		1B1B6E3D2BAA53D900D149FA /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1B1B6E3F2BAA5A1000D149FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1B1B6E432BAA6F7D00D149FA /* EmailAndPasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailAndPasswordTextField.swift; sourceTree = "<group>"; };
+		1B1B6E462BAADE5600D149FA /* LoginAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPIService.swift; sourceTree = "<group>"; };
+		1B1B6E4A2BAAFADE00D149FA /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		1B1B6E4F2BAC72B200D149FA /* PartyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		1BEA0CF52BC1D2DB004B174D /* AddPartyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPartyCell.swift; sourceTree = "<group>"; };
+		1BEA0CF82BC4250B004B174D /* PartyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyModel.swift; sourceTree = "<group>"; };
+		1BEA0CFA2BC427F4004B174D /* Party.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		1BEA0CFC2BC4320F004B174D /* EditPartyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPartyController.swift; sourceTree = "<group>"; };
+		1BEA0CFE2BC44633004B174D /* PartyOrgController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyOrgController.swift; sourceTree = "<group>"; };
+		1BEA0D012BC45A61004B174D /* ApiServiceParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceParty.swift; sourceTree = "<group>"; };
+		1BEA0D052BC4660B004B174D /* CheckEmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEmailController.swift; sourceTree = "<group>"; };
+		1BEA0D082BC615C9004B174D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1BEA0D0A2BC615E9004B174D /* TokenInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenInfo.swift; sourceTree = "<group>"; };
+		1BEA0D0C2BC6160C004B174D /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		1BEA0D0E2BC6163C004B174D /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
+		1BEA0D102BC61676004B174D /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		1BEA0D122BC616AB004B174D /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		1BEA0D142BC6172B004B174D /* Requester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
 		1BF07C862BA7408D00A313CE /* Tamada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tamada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF07C892BA7408D00A313CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BF07C8B2BA7408D00A313CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1BF07C8D2BA7408D00A313CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1BF07C902BA7408D00A313CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BF07C922BA7408F00A313CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1BF07C952BA7408F00A313CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BF07C972BA7408F00A313CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BF07C9C2BA7408F00A313CE /* TamadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF07CA02BA7408F00A313CE /* TamadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamadaTests.swift; sourceTree = "<group>"; };
@@ -76,6 +116,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B1B6E382BA9C35D00D149FA /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B6E452BAADE3900D149FA /* API */,
+				1B1B6E432BAA6F7D00D149FA /* EmailAndPasswordTextField.swift */,
+				1B1B6E3D2BAA53D900D149FA /* RegisterViewController.swift */,
+				1B1B6E3F2BAA5A1000D149FA /* LoginViewController.swift */,
+				1BEA0D052BC4660B004B174D /* CheckEmailController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		1B1B6E452BAADE3900D149FA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B6E462BAADE5600D149FA /* LoginAPIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1B1B6E482BAADF8F00D149FA /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B6E4A2BAAFADE00D149FA /* MainScreenController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		1B1B6E492BAADFCF00D149FA /* EditParty */ = {
+			isa = PBXGroup;
+			children = (
+				1BEA0CFC2BC4320F004B174D /* EditPartyController.swift */,
+			);
+			path = EditParty;
+			sourceTree = "<group>";
+		};
+		1B1B6E4C2BAC621900D149FA /* Party */ = {
+			isa = PBXGroup;
+			children = (
+				1BEA0D002BC45A45004B174D /* API */,
+				1BEA0CF82BC4250B004B174D /* PartyModel.swift */,
+				1B1B6E4F2BAC72B200D149FA /* PartyCell.swift */,
+				1BEA0CF52BC1D2DB004B174D /* AddPartyCell.swift */,
+				1BEA0CFA2BC427F4004B174D /* Party.swift */,
+				1BEA0CFE2BC44633004B174D /* PartyOrgController.swift */,
+			);
+			path = Party;
+			sourceTree = "<group>";
+		};
+		1BEA0D002BC45A45004B174D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1BEA0D012BC45A61004B174D /* ApiServiceParty.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1BEA0D072BC615A2004B174D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				1BEA0D082BC615C9004B174D /* User.swift */,
+				1BEA0D0A2BC615E9004B174D /* TokenInfo.swift */,
+				1BEA0D0C2BC6160C004B174D /* ErrorResponse.swift */,
+				1BEA0D0E2BC6163C004B174D /* Developer.swift */,
+				1BEA0D102BC61676004B174D /* UserDefaults.swift */,
+				1BEA0D122BC616AB004B174D /* Endpoints.swift */,
+				1BEA0D142BC6172B004B174D /* Requester.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		1BF07C7D2BA7408D00A313CE = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +210,18 @@
 		1BF07C882BA7408D00A313CE /* Tamada */ = {
 			isa = PBXGroup;
 			children = (
+				1BEA0D072BC615A2004B174D /* User */,
+				1B1B6E4C2BAC621900D149FA /* Party */,
+				1B1B6E492BAADFCF00D149FA /* EditParty */,
+				1B1B6E482BAADF8F00D149FA /* MainScreen */,
+				1B1B6E382BA9C35D00D149FA /* Register */,
+				1B1B6E2A2BA9B41900D149FA /* json.swift */,
 				1BF07C892BA7408D00A313CE /* AppDelegate.swift */,
 				1BF07C8B2BA7408D00A313CE /* SceneDelegate.swift */,
 				1BF07C8D2BA7408D00A313CE /* ViewController.swift */,
-				1BF07C8F2BA7408D00A313CE /* Main.storyboard */,
 				1BF07C922BA7408F00A313CE /* Assets.xcassets */,
-				1BF07C942BA7408F00A313CE /* LaunchScreen.storyboard */,
 				1BF07C972BA7408F00A313CE /* Info.plist */,
+				1B1B6DFC2BA9AE5300D149FA /* UIView_Pin.swift */,
 			);
 			path = Tamada;
 			sourceTree = "<group>";
@@ -232,8 +348,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF07C932BA7408F00A313CE /* Assets.xcassets in Resources */,
-				1BF07C962BA7408F00A313CE /* Base in Resources */,
-				1BF07C912BA7408D00A313CE /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +373,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF07C8E2BA7408D00A313CE /* ViewController.swift in Sources */,
+				1BEA0CFB2BC427F4004B174D /* Party.swift in Sources */,
 				1BF07C8A2BA7408D00A313CE /* AppDelegate.swift in Sources */,
+				1B1B6E442BAA6F7D00D149FA /* EmailAndPasswordTextField.swift in Sources */,
+				1B1B6E502BAC72B200D149FA /* PartyCell.swift in Sources */,
+				1BEA0D062BC4660B004B174D /* CheckEmailController.swift in Sources */,
+				1BEA0D022BC45A61004B174D /* ApiServiceParty.swift in Sources */,
+				1BEA0D0F2BC6163C004B174D /* Developer.swift in Sources */,
+				1BEA0D132BC616AB004B174D /* Endpoints.swift in Sources */,
+				1BEA0D0B2BC615E9004B174D /* TokenInfo.swift in Sources */,
+				1BEA0D092BC615C9004B174D /* User.swift in Sources */,
+				1BEA0D152BC6172B004B174D /* Requester.swift in Sources */,
+				1B1B6DFD2BA9AE5300D149FA /* UIView_Pin.swift in Sources */,
+				1B1B6E3E2BAA53D900D149FA /* RegisterViewController.swift in Sources */,
+				1B1B6E402BAA5A1000D149FA /* LoginViewController.swift in Sources */,
 				1BF07C8C2BA7408D00A313CE /* SceneDelegate.swift in Sources */,
+				1BEA0CF92BC4250B004B174D /* PartyModel.swift in Sources */,
+				1BEA0CFF2BC44633004B174D /* PartyOrgController.swift in Sources */,
+				1B1B6E372BA9B41900D149FA /* json.swift in Sources */,
+				1B1B6E472BAADE5600D149FA /* LoginAPIService.swift in Sources */,
+				1B1B6E4B2BAAFADE00D149FA /* MainScreenController.swift in Sources */,
+				1BEA0D112BC61676004B174D /* UserDefaults.swift in Sources */,
+				1BEA0D0D2BC6160C004B174D /* ErrorResponse.swift in Sources */,
+				1BEA0CF62BC1D2DB004B174D /* AddPartyCell.swift in Sources */,
+				1BEA0CFD2BC4320F004B174D /* EditPartyController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +431,6 @@
 			targetProxy = 1BF07CA72BA7408F00A313CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1BF07C8F2BA7408D00A313CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BF07C902BA7408D00A313CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1BF07C942BA7408F00A313CE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BF07C952BA7408F00A313CE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1BF07CAE2BA7408F00A313CE /* Debug */ = {
@@ -446,7 +563,7 @@
 				INFOPLIST_FILE = Tamada/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,7 +590,7 @@
 				INFOPLIST_FILE = Tamada/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

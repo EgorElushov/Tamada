@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Tamada
-//
-//  Created by Егор Елушов on 17.03.2024.
-//
-
 import UIKit
 
 @main
